@@ -4,5 +4,7 @@
     name: "{{ item }}"
     state: present
 
-    with_items: "{{ yum.name }}"
+   with_items:
+     - nginx
+     - git
 
