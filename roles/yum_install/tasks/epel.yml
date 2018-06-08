@@ -1,6 +1,5 @@
 ---
 - name: EPEL Repository Install
-  yum_repository:
-   name: epel
-   description: EPEL YUM repo
-   baseurl: https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+  yum:
+    name: epel-release
+    state: present   

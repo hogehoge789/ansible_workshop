@@ -1,5 +1,8 @@
 ---
-yum:
-  name:
-     - nginx
-     - git
+install_name:
+  - nginx
+  - git
+
+service_name:
+  - nginx
+
