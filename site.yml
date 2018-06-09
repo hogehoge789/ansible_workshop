@@ -10,7 +10,6 @@
 
 - name: Software Install
   hosts: tag_Role_cent_web
-  remote_user: centos
   become: true
   gather_facts: False
   roles:
