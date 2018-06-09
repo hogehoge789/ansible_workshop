@@ -8,9 +8,9 @@
     - name: Refresh inventory
       meta: refresh_inventory
 
-- name: Software Instale
+- name: Software Install
   hosts: tag_Role_cent_web
-  remote_user: ec2-user
+  remote_user: centos
   become: true
   gather_facts: False
   roles:
