@@ -11,7 +11,5 @@
 - name: Software Install
   hosts: tag_Role_cent_web
   become: true
-  gather_facts: False
   roles:
     - yum_install
-  
